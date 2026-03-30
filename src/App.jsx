@@ -1,13 +1,16 @@
+import Navbar from "./components/NavBar/navbar";
+// import { use } from "react";
 import "./App.css";
+// let dataPromise = fetch("/Products.json").then((res) => res.json());
 
 function App() {
+  // const productsData = use(dataPromise);
+  // console.log(productsData);
+
   return (
-    <>
-      {/* use this 3d card for welcome amirul */}
-      <section className=" container mx-auto mt-10">
-        <span className="skeleton skeleton-text"> Project is loading... </span>
-      </section>
-    </>
+    <div className="max-w-400 mx-auto">
+      <Navbar />
+    </div>
   );
 }
 

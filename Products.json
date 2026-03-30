@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "SEO Max Pro",
+    "description": "An all-in-one SEO solution designed to skyrocket your website's ranking and organic traffic.",
+    "price": 29.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Keyword Research", "Backlink Analysis", "Site Audit"],
+    "icon": "https://example.com/icons/seo-max.png"
+  },
+  {
+    "id": 2,
+    "name": "WriteAI",
+    "description": "Smart AI-powered writing assistant to generate high-quality articles and marketing copy in seconds.",
+    "price": 15.00,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["AI Blog Writer", "Plagiarism Checker", "Multi-language Support"],
+    "icon": "https://example.com/icons/write-ai.png"
+  },
+  {
+    "id": 3,
+    "name": "DesignFlow",
+    "description": "Premium UI/UX template library tailored for professional designers and web developers.",
+    "price": 199.00,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["5000+ UI Elements", "Figma Source Files", "Lifetime Updates"],
+    "icon": "https://example.com/icons/design-flow.png"
+  },
+  {
+    "id": 4,
+    "name": "TaskMaster",
+    "description": "The ultimate team collaboration platform to streamline workflows and boost daily productivity.",
+    "price": 49.00,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Kanban Boards", "Time Tracking", "Cloud Integration"],
+    "icon": "https://example.com/icons/task-master.png"
+  },
+  {
+    "id": 5,
+    "name": "VideoCut Express",
+    "description": "Advanced online video editor perfect for social media creators and quick marketing clips.",
+    "price": 12.50,
+    "period": "monthly",
+    "tag": "Trending",
+    "tagType": "new",
+    "features": ["4K Export", "Stock Music Library", "Auto Subtitles"],
+    "icon": "https://example.com/icons/videocut.png"
+  },
+  {
+    "id": 6,
+    "name": "MailBlast",
+    "description": "Powerful email marketing tool to launch, track, and automate high-converting campaigns.",
+    "price": 89.00,
+    "period": "yearly",
+    "tag": "Best Value",
+    "tagType": "best-seller",
+    "features": ["Automation Workflows", "A/B Testing", "Detailed Analytics"],
+    "icon": "https://example.com/icons/mailblast.png"
+  },
+  {
+    "id": 7,
+    "name": "SecurePass",
+    "description": "Enterprise-level password management system focusing on security and seamless access control.",
+    "price": 5.99,
+    "period": "monthly",
+    "tag": "Trusted",
+    "tagType": "popular",
+    "features": ["End-to-end Encryption", "Biometric Login", "Secure Vault"],
+    "icon": "https://example.com/icons/securepass.png"
+  },
+  {
+    "id": 8,
+    "name": "CloudSync Pro",
+    "description": "Secure cloud storage solution to sync and backup your files across all devices with ease.",
+    "price": 150.00,
+    "period": "one-time",
+    "tag": "Limited Deal",
+    "tagType": "new",
+    "features": ["1TB Storage", "File Versioning", "Offline Access"],
+    "icon": "https://example.com/icons/cloudsync.png"
+  }
+]
