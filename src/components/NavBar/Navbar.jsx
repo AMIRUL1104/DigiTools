@@ -1,7 +1,7 @@
 import cart from "../../assets/products/shopping-cart.png";
 function navbar() {
   return (
-    <div className="navbar bg-base-100 shadow-sm max-w-360 mx-auto">
+    <div className="navbar bg-base-100 shadow-sm max-w-360 mx-auto mb-16">
       {/* PART 1 */}
       <div className="navbar-start">
         <div className="dropdown">
@@ -71,14 +71,14 @@ function navbar() {
 
       {/* PART 3 */}
 
-      <div className="navbar-end gap-5 ">
+      <div className="navbar-end gap-4 ">
         <button className="">
           <img src={cart} alt="cart image" />
         </button>
         <button className=" text-[#101727] text-base font-semibold capitalize ">
           Login
         </button>
-        <button className="btn bg-linear-to-r text-white from-[#4f39f6] to-[#9514fa] ">
+        <button className="btn rounded-3xl bg-linear-to-r text-white from-[#4f39f6] to-[#9514fa] ">
           Get Started
         </button>
       </div>
