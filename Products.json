@@ -8,7 +8,7 @@
     "tag": "Popular",
     "tagType": "popular",
     "features": ["Keyword Research", "Backlink Analysis", "Site Audit"],
-    "icon": "https://example.com/icons/seo-max.png"
+    "icon": "src/assets/products/writing_2327400 1.png"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "tag": "New",
     "tagType": "new",
     "features": ["AI Blog Writer", "Plagiarism Checker", "Multi-language Support"],
-    "icon": "https://example.com/icons/write-ai.png"
+    "icon": "src/assets/products/writing_2327400 1.png"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "tag": "Best Seller",
     "tagType": "best-seller",
     "features": ["5000+ UI Elements", "Figma Source Files", "Lifetime Updates"],
-    "icon": "https://example.com/icons/design-flow.png"
+    "icon": "src/assets/products/design-tool.png"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "tag": "Popular",
     "tagType": "popular",
     "features": ["Kanban Boards", "Time Tracking", "Cloud Integration"],
-    "icon": "https://example.com/icons/task-master.png"
+    "icon": "src/assets/products/writing_2327400 1.png"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "tag": "Trending",
     "tagType": "new",
     "features": ["4K Export", "Stock Music Library", "Auto Subtitles"],
-    "icon": "https://example.com/icons/videocut.png"
+    "icon": "src/assets/products/writing_2327400 1.png"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "tag": "Best Value",
     "tagType": "best-seller",
     "features": ["Automation Workflows", "A/B Testing", "Detailed Analytics"],
-    "icon": "https://example.com/icons/mailblast.png"
+    "icon": "src/assets/products/writing_2327400 1.png"
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "tag": "Trusted",
     "tagType": "popular",
     "features": ["End-to-end Encryption", "Biometric Login", "Secure Vault"],
-    "icon": "https://example.com/icons/securepass.png"
+    "icon": "src/assets/products/writing_2327400 1.png"
   },
   {
     "id": 8,
@@ -85,6 +85,6 @@
     "tag": "Limited Deal",
     "tagType": "new",
     "features": ["1TB Storage", "File Versioning", "Offline Access"],
-    "icon": "https://example.com/icons/cloudsync.png"
+    "icon": "src/assets/products/writing_2327400 1.png"
   }
 ]

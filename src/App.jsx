@@ -2,14 +2,15 @@ import Navbar from "./components/NavBar/navbar";
 import Banner from "./components/Banner/Banner";
 import "./App.css";
 import Success from "./components/Success/Success";
+import Products from "./components/Products/Products";
 
 // hooks
-// import { use } from "react";
+import { use } from "react";
 
-// let dataPromise = fetch("/Products.json").then((res) => res.json());
+let dataPromise = fetch("/Products.json").then((res) => res.json());
 
 function App() {
-  // const productsData = use(dataPromise);
+  const productsData = use(dataPromise);
   // console.log(productsData);
 
   return (
@@ -17,6 +18,7 @@ function App() {
       <Navbar />
       <Banner />
       <Success />
+      <Products productsData={productsData} />
     </div>
   );
 }
