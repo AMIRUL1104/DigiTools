@@ -4,7 +4,7 @@ function ProductCard({ data }) {
   return (
     <div
       key={data.id}
-      className=" sm:min-w-96 max-w-2xs rounded-2xl shadow-sm px-8 py-1.5 relative space-y-4"
+      className=" sm:min-w-96 max-w-2xs  rounded-2xl shadow-sm hover:shadow-2xl transition duration-100 px-8 py-1.5 relative space-y-4"
     >
       <p className=" bg-[#dbfce7FF] rounded-2xl py-0.5 px-2 text-[14px] font-medium inline-block absolute right-2.5 top-2.5 text-green-500  ">
         {data.tag}

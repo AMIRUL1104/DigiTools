@@ -6,6 +6,7 @@ import Products from "./components/Products/Products";
 
 // hooks
 import { use } from "react";
+import GetStart from "./components/GetStart/GetStart";
 
 let dataPromise = fetch("/Products.json").then((res) => res.json());
 
@@ -19,6 +20,7 @@ function App() {
       <Banner />
       <Success />
       <Products productsData={productsData} />
+      <GetStart />
     </div>
   );
 }
