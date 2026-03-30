@@ -4,9 +4,9 @@ import ball from "../../assets/group-5.png";
 
 function Banner() {
   return (
-    <section className="max-w-360 mx-auto  flex items-center justify-between">
+    <section className="max-w-360 mx-auto  flex max-lg:flex-col items-center justify-between">
       {/* left side  */}
-      <div className=" max-w-2xl flex flex-col gap-4 items-start">
+      <div className=" max-w-2xl flex flex-col gap-4 items-center lg:items-start ">
         <p
           className=" inline-flex items-center gap-1.5 font-medium  bg-[#e1e7ffFF] rounded-3xl px-3 py-1 
           "
@@ -19,13 +19,12 @@ function Banner() {
             New: AI-Powered Tools Available
           </span>
         </p>
-        <h1 className=" text-[#101727] text-7xl loading-[1.16662px] font-extrabold  capitalize ">
-          Supercharge Your Digital Workflow
+        <h1 className=" text-[#101727] max-lg:text-center md:text-5xl xl:text-7xl text-4xl loading-[1.16662px] font-extrabold  capitalize ">
+          Supercharge Your <br /> Digital Workflow
         </h1>
-        <p className=" text-[#627382] text-lg font-normal loading-[1.112px] ">
+        <p className=" text-[#627382] max-xl:max-w-100  max-lg:text-center text-lg font-normal loading-[1.112px] ">
           Access premium AI tools, design assets, templates, and productivity{" "}
-          <br />
-          software—all in one place. Start creating faster today. <br /> Explore
+          software—all in one place. Start creating faster today. Explore
           Products
         </p>
 
