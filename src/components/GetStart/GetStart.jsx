@@ -37,7 +37,7 @@ function GetStart() {
 
       <div className=" grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3   gap-4 ">
         {steps.map((step) => (
-          <StartCard step={step} />
+          <StartCard key={step.id} step={step} />
         ))}
       </div>
     </section>

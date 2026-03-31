@@ -1,6 +1,6 @@
 import check from "../../assets/check.png";
 
-function ProductCard({ data }) {
+function ProductCard({ data, handleProduct }) {
   return (
     <div
       key={data.id}
@@ -33,7 +33,11 @@ function ProductCard({ data }) {
         ))}
       </ul>
 
-      <button className=" capitalize rounded-3xl btn bg-linear-to-r from-[#4f39f6] to-[#9514fa] w-full text-white font-bold hover:scale-95 transition duration-100">
+      <button
+        id={data.id}
+        onClick={handleProduct}
+        className=" capitalize rounded-3xl btn bg-linear-to-r from-[#4f39f6] to-[#9514fa] w-full text-white font-bold hover:scale-95 transition duration-100"
+      >
         buy now
       </button>
     </div>

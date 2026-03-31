@@ -60,8 +60,8 @@ function Pricing() {
       </div>
 
       <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-8 md:gap-4  ">
-        {pricing.map((item) => (
-          <PriceCard data={item} />
+        {pricing.map((item, i) => (
+          <PriceCard key={i} data={item} />
         ))}
       </div>
     </section>
