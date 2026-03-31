@@ -17,6 +17,7 @@ function cartCard({ data, handleDeleteItem }) {
 
       <button
         id={data.id}
+        name={data.name}
         onClick={handleDeleteItem}
         className=" mr-2.5 text-red-500 hover:text-red-700 hover:border border-red-500 rounded-4xl hover:px-2.5"
       >

@@ -22,7 +22,7 @@ function Products({
     );
   } else {
     container = (
-      <section className="  flex flex-col items-center justify-center md:grid  md:grid-cols-2 lg:grid-cols-3 gap-10  ">
+      <section className="  flex flex-col items-center justify-center md:grid  md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-300 mx-auto ">
         {productsData.map((data) => (
           <ProductCard
             key={data.id}

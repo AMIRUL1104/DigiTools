@@ -1,4 +1,4 @@
-import check from "../../../public/assets/check.png";
+import check from "/assets/check.png";
 import { useEffect, useState } from "react";
 function ProductCard({ data, handleProduct, handleDeleteItem }) {
   const [isAdded, setIsAdded] = useState(() => {
@@ -66,6 +66,7 @@ function ProductCard({ data, handleProduct, handleDeleteItem }) {
 
       <button
         id={data.id}
+        name={data.name}
         onClick={togglecart}
         className={`capitalize rounded-3xl btn w-full text-white font-bold hover:scale-95 transition duration-100 ${
           isAdded ? "bg-red-500" : "bg-linear-to-r from-[#4f39f6] to-[#9514fa]"

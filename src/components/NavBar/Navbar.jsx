@@ -1,7 +1,7 @@
-import cart from "../../../public/assets/products/shopping-cart.png";
-function navbar() {
+import cart from "/assets/products/shopping-cart.png";
+function Navbar({ totalCart }) {
   return (
-    <div className="navbar bg-base-100 shadow-sm max-w-360 mx-auto mb-16">
+    <div className="navbar bg-base-100 shadow-sm max-w-400 mx-auto mb-16 sticky top-0 z-50  ">
       {/* PART 1 */}
       <div className="navbar-start">
         <div className="dropdown bg-transparent border-none mr-1.5">
@@ -51,7 +51,6 @@ function navbar() {
           DigiTools
         </a>
       </div>
-
       {/* PART 2 */}
       <div className="navbar-center hidden lg:flex text-3xl">
         <ul className="menu menu-horizontal px-1 gap-8">
@@ -72,11 +71,14 @@ function navbar() {
           </li>
         </ul>
       </div>
-
       {/* PART 3 */}
-
-      <div className="navbar-end gap-4 ">
-        <button className="">
+      <div className="navbar-end gap-6 ">
+        <button className=" relative">
+          {totalCart > 0 && (
+            <span className=" text-[12px] absolute -top-4 -right-3 px-1 py-0.5  text-white bg-yellow-500 rounded-full ">
+              {totalCart}
+            </span>
+          )}
           <img src={cart} alt="cart image" />
         </button>
         <button className=" text-[#101727] text-base font-semibold capitalize ">
@@ -90,4 +92,4 @@ function navbar() {
   );
 }
 
-export default navbar;
+export default Navbar;

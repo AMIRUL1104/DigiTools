@@ -1,4 +1,4 @@
-import check from "../../../public/assets/check.png";
+import check from "/assets/check.png";
 function PriceCard({ data }) {
   return (
     <div
