@@ -1,4 +1,4 @@
-import cart from "../../assets/products/shopping-cart.png";
+import cart from "../../../public/assets/products/shopping-cart.png";
 function navbar() {
   return (
     <div className="navbar bg-base-100 shadow-sm max-w-360 mx-auto mb-16">

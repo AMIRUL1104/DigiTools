@@ -1,6 +1,6 @@
-import play from "../../assets/Play.png";
-import bannerImg from "../../assets/banner.png";
-import ball from "../../assets/group-5.png";
+import play from "../../../public/assets/Play.png";
+import bannerImg from "../../../public/assets/banner.png";
+import ball from "../../../public/assets/group-5.png";
 
 function Banner() {
   return (

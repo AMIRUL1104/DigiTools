@@ -4,21 +4,21 @@ function GetStart() {
   const steps = [
     {
       id: "01",
-      img: "src/assets/user.png",
+      img: "/assets/user.png",
       name: "create account",
       description:
         "Sign up for free in seconds. No credit card required to get started.",
     },
     {
       id: "02",
-      img: "src/assets/package.png",
+      img: "/assets/package.png",
       name: "chose account",
       description:
         "Browse our catalog and select the toolsthat fit your needs.",
     },
     {
       id: "03",
-      img: "src/assets/rocket.png",
+      img: "/assets/rocket.png",
       name: "start creating",
       description: "Download and start using your premium tools immediately.",
     },

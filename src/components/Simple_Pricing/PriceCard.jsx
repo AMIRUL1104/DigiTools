@@ -1,4 +1,4 @@
-import check from "../../assets/check.png";
+import check from "../../../public/assets/check.png";
 function PriceCard({ data }) {
   return (
     <div
@@ -28,7 +28,7 @@ function PriceCard({ data }) {
           {data.desc}
         </p>
         <h2 className=" my-6">
-          <span className="text-2xl font-extrabold">${data.price}</span>
+          <span className="text-2xl font-extrabold">{data.price}</span>
           <span
             className={`${data.tag ? "text-white" : "text-[#627382]"} font-normal leading-[1.112px]`}
           >

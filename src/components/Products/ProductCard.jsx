@@ -1,4 +1,4 @@
-import check from "../../assets/check.png";
+import check from "../../../public/assets/check.png";
 import { useEffect, useState } from "react";
 function ProductCard({ data, handleProduct, handleDeleteItem }) {
   const [isAdded, setIsAdded] = useState(() => {
