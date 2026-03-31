@@ -1,161 +1,43 @@
-# 🎯 A-6 Digital Tools Buying Website
+# 🎯 DigiTools - Digital Services Marketplace
 
-## 📅 Deadlines
-- 60 Marks: 1st April, 2026 (11:59 PM ⏱️)  
-- 50 Marks: No Deadline for 50 marks.  
-- 30 Marks: Any time after 1st April.  
+DigiTools হলো একটি আধুনিক এবং রেসপনসিভ ওয়েব অ্যাপ্লিকেশন, যেখানে বিভিন্ন ডিজিটাল টুলস এবং সার্ভিস সাবস্ক্রিপশন খুব সহজেই খুঁজে পাওয়া এবং কেনা সম্ভব। এটি মূলত একটি ইউজার-ফ্রেন্ডলি মার্কেটপ্লেস ইন্টারফেস যা ব্যবহারকারীদের সেরা ডিজিটাল সলিউশনগুলো বেছে নিতে সাহায্য করে।
 
 ---
 
----
+## 📝 Description
 
-## 🚫 Key Rules
-- Don't ask about mark distribution in the group. We don't provide it.  
-- Don't post assignment feedback after you receive it. If you face any problem or have any complaints then join a support session and discuss it.  
-- Don’t use any lorem ipsum text, rather use relevant and meaningful text content.  
-- You can change the color if you want but remember that it should not be a gobindo color.  
-- Use at least 8 git commits with meaningful messages.  
+**DigiTools** প্রজেক্টটি তৈরি করা হয়েছে ডিজিটাল সেবাকে মানুষের হাতের নাগালে পৌঁছে দেওয়ার জন্য। এখানে ব্যবহারকারীরা বিভিন্ন প্রিমিয়াম টুলসের ক্যাটাগরি দেখতে পারেন, তাদের পছন্দমতো সার্ভিস কার্টে (Cart) যোগ করতে পারেন এবং একটি নিরবচ্ছিন্ন কেনাকাটার অভিজ্ঞতা উপভোগ করতে পারেন। প্রজেক্টটিতে ডাইনামিক ফিল্টারিং এবং রিয়েল-টাইম স্টেট ম্যানেজমেন্টের উপর গুরুত্ব দেওয়া হয়েছে যাতে ইউজার ইন্টারফেসটি দ্রুত এবং কার্যকর হয়।
 
 ---
-
-## 🧩 Features & Requirements
-
-### 🧭 Navbar
-- Navbar designed according to Figma  
-- Cart icon displayed (initially empty)  
-
----
-
-### 🎯 Banner
-- Banner section includes:
-  - Heading  
-  - Description text  
-  - Image  
-  - Buttons  
-
----
-
-### 📊 Stats Section
-- Stats section designed based on Figma  
-
----
-
-### 🔄 Main Section & Toggling
-- Design  2 buttons at the center of the section.
-- By clicking Cart,  the cart section will be shown. By default it will show an empty message.
-- By Clicking  Product,  the Products section will be shown. 
-- By Default product section will be visible. 
-
-
----
-
-### 📦 JSON Data
-Create 6–10 product data with:
-- id  
-- name  
-- description  
-- price  
-- period (one-time / monthly / yearly)  
-- tag ( example- popular, new, best seller) 
-- tagType ( example- popular, new, best seller) 
-- features ( array. Example:  ["100+ templates", "ATS optimization", "Export to PDF"] )   
-- icon  
-
-🚩 You can take help of AI Systems for generating a JSON Data
-
----
-
-### 🃏 Product Cards
-- Display all products in a 3-column layout  
-- Each card includes:
-  - Name  
-  - Description  
-  - Price  
-  - Period  
-  - TagType  
-  - Features  
-  - Icon  
-  - Buy Now button  
-
----
-
-### 🛒 Cart Functionality
-- Show selected products in cart  
-- Display total product count in navbar  
-- Cart layout: 1 column  
-- Each cart item includes:
-  - Name  
-  - Icon  
-  - Price  
-  - Remove button  
-- "Proceed to Checkout" button:
-  - Clears all cart items  
-
----
-
-### 🪜 Steps Section
-- Designed according to Figma  
-
----
-
-### 💰 Pricing Section
-- Designed according to Figma  
-
----
-
-### 🦶 Footer
-- Footer designed based on Figma  
-
----
-
-### 📱 Responsive Design
-- Fully responsive across devices  
-- Follow standard responsive practices  
-
----
-
-# 🚀 Challenges Part 
-
-### 🔔 Use a NPM Package React-Toastify
-- Use react toastify to show all the alerts of add to cart, remove, and proceed to checkout. 
-
-
----
-
-### ❌ Implement Selected product remove functionality 
-- On Click Remove Button product will remove from cart section.
-
-- In this section the total of the selected products ( added on the carts) will show here. 
-- Proceed to checkout button will remove all the products from the cart  
-
-
-
----
-
-### 📂 GitHub Repository
-- Create Beautiful Github Readme with following description
-    - Name of your  Project
-    - A little Description
-    - Technology that you use
-    - 3 Features about your project. 
- 
-
----
-## Optional Features: 
-
-1. When you click on a product it increases the cart count in the Navbar and clears it when you click on the proceed to checkout button. 
-2. When clicking on the Buy now Button it shows an “Added to cart” message on the button. 
-
 
 ## ⚙️ Technologies Used
-- React.js  
-- Tailwind CSS, DaisyUI 
-- JavaScript (ES6+)  
-- React-Toastify (NPM Package)  
-- JSON (for product data)  
+
+প্রজেক্টটি তৈরিতে আধুনিক সব টেকনোলজি ব্যবহার করা হয়েছে:
+
+- **Frontend:** React.js (Component-based architecture)
+- **Styling:** Tailwind CSS & DaisyUI (For modern UI/UX)
+- **State Management:** React Hooks (useState, useEffect)
+- **Notifications:** React-Toastify
+- **Icons:** React Icons
+- **Deployment:** Netlify
 
 ---
 
-## 📤 What to submit:
-- GitHub Repository Link:
-- Live Site Link:
+## 🚀 Key Features
+
+এই প্রজেক্টের প্রধান ৩টি বৈশিষ্ট্য নিচে দেওয়া হলো:
+
+1. **Dynamic Product Toggling:** ব্যবহারকারীরা খুব সহজেই "Product View" এবং "Cart View" এর মধ্যে সুইচ করতে পারেন। ডিফল্টভাবে প্রোডাক্ট সেকশনটি দেখা যায়, যা কেনাকাটার অভিজ্ঞতাকে সহজ করে।
+2. **Real-time Cart Management:** ইউজাররা কোনো টুল 'Buy Now' বাটনে ক্লিক করে কার্টে যোগ করতে পারেন, যা সাথে সাথে নেভবারের কাউন্টারে আপডেট হয়। এছাড়াও কার্ট থেকে যেকোনো আইটেম রিমুভ করার এবং এক ক্লিকে চেকআউট করার সুবিধা রয়েছে।
+3. **Responsive Pricing & Tagging:** প্রতিটি প্রোডাক্ট কার্ডে আলাদা আলাদা ট্যাগ (যেমন: Popular, New, Best Seller) এবং প্রাইসিং পিরিয়ড (Monthly, Yearly, One-time) যুক্ত করা হয়েছে, যা ব্যবহারকারীকে সঠিক সিদ্ধান্ত নিতে সাহায্য করে।
+
+---
+
+## 🔗 Links
+
+- **Live Demo:** [DigiTools Live Site](https://digitools-station.netlify.app/)
+- **Repository:** [GitHub Repo](https://github.com/AMIRUL1104/DigiTools)
+
+---
+
+Developed with ❤️ by [Amirul Islam](https://github.com/AMIRUL1104)
