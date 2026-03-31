@@ -7,6 +7,8 @@ import Products from "./components/Products/Products";
 // hooks
 import { use } from "react";
 import GetStart from "./components/GetStart/GetStart";
+import Pricing from "./components/Simple_Pricing/Pricing";
+import FreeTrail from "./components/StartFree/FreeTrail";
 
 let dataPromise = fetch("/Products.json").then((res) => res.json());
 
@@ -21,6 +23,8 @@ function App() {
       <Success />
       <Products productsData={productsData} />
       <GetStart />
+      <Pricing />
+      <FreeTrail />
     </div>
   );
 }

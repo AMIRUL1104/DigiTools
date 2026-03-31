@@ -22,7 +22,7 @@ function ProductCard({ data }) {
           /{data.period}
         </span>{" "}
       </h2>
-      <ul className=" flex items-start justify-evenly flex-col gap-1.5 ">
+      <ul className=" flex  items-start justify-evenly flex-col gap-1.5 ">
         {data.features.map((feature, i) => (
           <li
             className=" text-[#627382] flex items-center justify-center"

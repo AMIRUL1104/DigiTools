@@ -22,7 +22,7 @@ function Banner() {
         <h1 className=" text-[#101727] max-lg:text-center md:text-5xl xl:text-7xl text-4xl loading-[1.16662px] font-extrabold  capitalize ">
           Supercharge Your <br /> Digital Workflow
         </h1>
-        <p className=" text-[#627382] max-xl:max-w-100  max-lg:text-center text-lg font-normal loading-[1.112px] ">
+        <p className=" text-[#627382] max-xl:max-w-100 max-sm:px-2.5  max-lg:text-center text-lg font-normal loading-[1.112px] ">
           Access premium AI tools, design assets, templates, and productivity{" "}
           software—all in one place. Start creating faster today. Explore
           Products
