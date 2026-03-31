@@ -20,7 +20,10 @@ function Banner() {
           </span>
         </p>
         <h1 className=" text-[#101727] max-lg:text-center md:text-5xl xl:text-7xl text-4xl loading-[1.16662px] font-extrabold  capitalize ">
-          Supercharge Your <br /> Digital Workflow
+          Supercharge Your <br />{" "}
+          <span className="bg-linear-to-r from-[#4f39f6] to-[#9514fa] bg-clip-text text-transparent ">
+            Digital Workflow
+          </span>
         </h1>
         <p className=" text-[#627382] max-xl:max-w-100 max-sm:px-2.5  max-lg:text-center text-lg font-normal loading-[1.112px] ">
           Access premium AI tools, design assets, templates, and productivity{" "}
@@ -46,7 +49,7 @@ function Banner() {
         </div>
       </div>
       {/* right side  */}
-      <div>
+      <div className=" shadow-md">
         <img src={bannerImg} alt="banner image " />
       </div>
     </section>

@@ -9,7 +9,7 @@ function PriceCard({ data }) {
       }`}
     >
       {data.tag && (
-        <p className="absolute inline-flex -top-2 left-[35%] capitalize bg-yellow-500 text-yellow-600 font-semibold py-0.5 px-2 rounded-full">
+        <p className="absolute inline-flex -top-2 left-[35%] capitalize bg-yellow-400 text-yellow-700 font-semibold py-0.5 px-2 rounded-full">
           {data.tag}
         </p>
       )}
@@ -48,25 +48,19 @@ function PriceCard({ data }) {
       </div>
 
       {/* Fixed at the bottom */}
-      <button
-        className={`capitalize rounded-3xl btn w-full font-bold hover:scale-95 transition duration-100 border-none h-12
+      <div className="bg-white rounded-full">
+        <button
+          className={`capitalize rounded-3xl btn w-full font-bold hover:scale-95 transition duration-100 border-none 
         ${
           data.tag
-            ? "bg-white text-transparent! bg-linear-to-r from-[#4f39f6] to-[#9514fa] bg-clip-text"
+            ? " bg-linear-to-r from-[#4f39f6] to-[#9514fa] bg-clip-text  text-transparent"
             : "bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white"
         }
       `}
-      >
-        buy now
-      </button>
-
-      {/* <button className="  rounded-3xl inline-block p-[1.5px]  bg-linear-to-r from-[#4f39f6] to-[#9514fa] hover:scale-95 transition duration-100 ">
-            <span className=" flex gap-1.5  px-4 py-1 rounded-full bg-white">
-              <span className="  capitalize bg-linear-to-r from-[#4f39f6] to-[#9514fa] bg-clip-text text-transparent ">
-                View Pricing
-              </span>
-            </span> 
-          </button>*/}
+        >
+          buy now
+        </button>
+      </div>
     </div>
   );
 }

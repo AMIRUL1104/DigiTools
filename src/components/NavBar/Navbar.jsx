@@ -4,8 +4,12 @@ function navbar() {
     <div className="navbar bg-base-100 shadow-sm max-w-360 mx-auto mb-16">
       {/* PART 1 */}
       <div className="navbar-start">
-        <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn  lg:hidden">
+        <div className="dropdown bg-transparent border-none mr-1.5">
+          <div
+            tabIndex={0}
+            role="button"
+            className="btn bg-transparent  lg:hidden"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"

@@ -8,7 +8,7 @@
     "tag": "Popular",
     "tagType": "popular",
     "features": ["Keyword Research", "Backlink Analysis", "Site Audit"],
-    "icon": "src/assets/products/writing_2327400 1.png"
+    "icon": "src/assets/products/seo.png"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "tag": "New",
     "tagType": "new",
     "features": ["AI Blog Writer", "Plagiarism Checker", "Multi-language Support"],
-    "icon": "src/assets/products/writing_2327400 1.png"
+    "icon": "src/assets/products/ai-writing.png"
   },
   {
     "id": 3,
@@ -52,7 +52,7 @@
     "tag": "Trending",
     "tagType": "new",
     "features": ["4K Export", "Stock Music Library", "Auto Subtitles"],
-    "icon": "src/assets/products/writing_2327400 1.png"
+    "icon": "src/assets/products/video-cut.webp"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "tag": "Best Value",
     "tagType": "best-seller",
     "features": ["Automation Workflows", "A/B Testing", "Detailed Analytics"],
-    "icon": "src/assets/products/writing_2327400 1.png"
+    "icon": "src/assets/products/mail-blost.png"
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "tag": "Trusted",
     "tagType": "popular",
     "features": ["End-to-end Encryption", "Biometric Login", "Secure Vault"],
-    "icon": "src/assets/products/writing_2327400 1.png"
+    "icon": "src/assets/products/secure-pass.png"
   },
   {
     "id": 8,
@@ -85,6 +85,6 @@
     "tag": "Limited Deal",
     "tagType": "new",
     "features": ["1TB Storage", "File Versioning", "Offline Access"],
-    "icon": "src/assets/products/writing_2327400 1.png"
+    "icon": "src/assets/products/CloudSync.png"
   }
 ]

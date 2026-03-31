@@ -5,7 +5,7 @@ import Success from "./components/Success/Success";
 import Products from "./components/Products/Products";
 
 // hooks
-import { use, useState } from "react";
+import { use, useState, useEffect } from "react";
 import GetStart from "./components/GetStart/GetStart";
 import Pricing from "./components/Simple_Pricing/Pricing";
 import FreeTrail from "./components/StartFree/FreeTrail";
@@ -18,7 +18,14 @@ function App() {
 
   // hooks
   const [dataType, setDataType] = useState("productData");
-  const [cartData, setcartData] = useState([]);
+  const [cartData, setcartData] = useState(() => {
+    let saved = localStorage.getItem("cart");
+    return saved ? JSON.parse(saved) : [];
+  });
+
+  useEffect(() => {
+    localStorage.setItem("cart", JSON.stringify(cartData));
+  }, [cartData]);
 
   //=========== functions =============
   const handleProduct = (e) => {
@@ -36,6 +43,19 @@ function App() {
 
     const updatedCart = cartData.filter((item) => item.id != id);
     setcartData(updatedCart);
+
+    localStorage.setItem(id, JSON.stringify(false));
+  };
+
+  const handleProceed = () => {
+    // remove save cart data  element styling first
+    let saveDatasId = cartData.map((item) => item.id);
+    saveDatasId.forEach((element) => {
+      localStorage.setItem(element, JSON.stringify(false));
+    });
+
+    // delete all cart productss
+    setcartData([]);
   };
 
   return (
@@ -50,6 +70,7 @@ function App() {
         handleProduct={handleProduct}
         cartData={cartData}
         handleDeleteItem={handleDeleteItem}
+        handleProceed={handleProceed}
       />
       <GetStart />
       <Pricing />

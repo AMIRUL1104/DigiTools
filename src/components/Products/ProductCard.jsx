@@ -1,15 +1,46 @@
 import check from "../../assets/check.png";
+import { useEffect, useState } from "react";
+function ProductCard({ data, handleProduct, handleDeleteItem }) {
+  const [isAdded, setIsAdded] = useState(() => {
+    let saved = localStorage.getItem(data.id);
+    return saved ? JSON.parse(saved) : false;
+  });
 
-function ProductCard({ data, handleProduct }) {
+  const togglecart = (e) => {
+    if (isAdded) {
+      handleDeleteItem(e);
+    } else {
+      handleProduct(e);
+    }
+
+    setIsAdded((pre) => !pre);
+  };
+
+  useEffect(() => {
+    localStorage.setItem(data.id, JSON.stringify(isAdded));
+  }, [isAdded, data.id]);
+
+  let tagClass;
+  if (data.tagType === "new") {
+    tagClass = "text-green-500 bg-[#dbfce7FF]";
+  } else if (data.tagType === "best-seller") {
+    tagClass = "text-yellow-500 bg-[#fcf9db]";
+  } else {
+    tagClass = "text-indigo-500 bg-[#e9dbfc]";
+  }
   return (
     <div
       key={data.id}
       className=" sm:min-w-96 max-w-2xs  rounded-2xl shadow-sm hover:shadow-2xl transition duration-100 px-8 py-1.5 relative space-y-4"
     >
-      <p className=" bg-[#dbfce7FF] rounded-2xl py-0.5 px-2 text-[14px] font-medium inline-block absolute right-2.5 top-2.5 text-green-500  ">
+      <p
+        className={`${tagClass} rounded-2xl py-0.5 px-2 text-[14px] font-medium inline-block absolute right-2.5 top-2.5  `}
+      >
         {data.tag}
       </p>
-      <img className=" mt-8" src={data.icon} />
+      <div className=" w-10 h-10">
+        <img className=" mt-8" src={data.icon} />
+      </div>
       <h2 className=" text-2xl font-bold capitalize text-[#101727FF] ">
         {data.name}{" "}
       </h2>
@@ -35,10 +66,12 @@ function ProductCard({ data, handleProduct }) {
 
       <button
         id={data.id}
-        onClick={handleProduct}
-        className=" capitalize rounded-3xl btn bg-linear-to-r from-[#4f39f6] to-[#9514fa] w-full text-white font-bold hover:scale-95 transition duration-100"
+        onClick={togglecart}
+        className={`capitalize rounded-3xl btn w-full text-white font-bold hover:scale-95 transition duration-100 ${
+          isAdded ? "bg-red-500" : "bg-linear-to-r from-[#4f39f6] to-[#9514fa]"
+        }`}
       >
-        buy now
+        {isAdded ? "added to cart" : "buy now"}
       </button>
     </div>
   );
