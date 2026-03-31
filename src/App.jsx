@@ -9,6 +9,7 @@ import { use } from "react";
 import GetStart from "./components/GetStart/GetStart";
 import Pricing from "./components/Simple_Pricing/Pricing";
 import FreeTrail from "./components/StartFree/FreeTrail";
+import Footer from "./components/Footer/Footer";
 
 let dataPromise = fetch("/Products.json").then((res) => res.json());
 
@@ -25,6 +26,7 @@ function App() {
       <GetStart />
       <Pricing />
       <FreeTrail />
+      <Footer />
     </div>
   );
 }

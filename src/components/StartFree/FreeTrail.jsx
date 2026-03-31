@@ -1,6 +1,6 @@
 function FreeTrail() {
   return (
-    <section className="mx-auto my-16 py-16  flex max-sm:flex-1 items-center justify-evenly    bg-linear-to-r from-[#4f39f6] to-[#9514fa]">
+    <section className="mx-auto mt-16 py-24  flex max-sm:flex-1 items-center justify-evenly    bg-linear-to-r from-[#4f39f6] to-[#9514fa]">
       <div className="flex items-center justify-center flex-col max-w-4xl">
         <h1 className=" text-white text-center md:text-5xl  sm:text-4xl text-3xl loading-[1.16662px] font-extrabold  capitalize ">
           Ready to Transform Your Workflow?
